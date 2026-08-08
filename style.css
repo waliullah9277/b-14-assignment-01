@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 
 img{
@@ -96,14 +97,14 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 
 .meet-speakers h1{
     margin: 30px 0px;
     text-align: center;
     font-size: 40px;
-    color: 000102;
+    color: #000102;
 }
 
 .meet-cart {
@@ -141,4 +142,133 @@ nav{
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 8px;
+}
+
+
+/* secure payment section styles */
+.payment-cart-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.secure-payment h1, .secure-payment-p{
+    text-align: center;
+}
+
+.secure-payment h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #000102;
+}
+.secure-payment p{
+    color: #575757;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.payment-cart-content{    
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    line-height: 30px;
+}
+
+.payment-cart-content h5{    
+    color: #575757;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.payment-cart-content h2{    
+    color: #000102;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.payment-cart-content ul{    
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.payment-cart-content ul li{   
+    font-size: 15px;
+    color: #575757;
+    font-weight: 500;
+}
+
+.payment-cart-content ul li::marker{   
+    color: #2563EB;
+}
+
+.line{
+    margin-bottom: 20px;
+}
+
+.outline-btn{
+    width: 100%;
+    padding: 13px 23px;
+    border-radius: 8px;
+    border: 1px solid #d3d2d2;
+    background-color: #fff;
+    color: #000102;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.outline-btn1{
+    width: 100%;
+    padding: 13px 23px;
+    border-radius: 8px;
+    border: 1px solid #2563EB;
+    background-color: #fff;
+    color: #000102;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.pro-btn{
+    width: 100%;
+    padding: 13px 23px;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 7px;
+}
+
+.pro-cart{
+    background-color: #0D1B2A;
+    width: 100% !important;
+}
+
+.pro-cart h2 {
+    color: #fff;
+}
+
+.pro-cart ul li, p{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.pro-cart h5{
+    color: #93C5FD;
+}
+
+.pro-cart ul li::marker {
+    color: #2563EB;
+}
+
+.pro-card .line {
+    border-color: #575757;
 }
