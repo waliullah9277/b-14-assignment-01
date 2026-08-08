@@ -272,3 +272,68 @@ nav{
 .pro-card .line {
     border-color: #575757;
 }
+
+
+/* footer styles */
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    padding: 50px 0px;
+    background-color: #0D1B2A;
+    font-size: 25px;
+}
+
+.footer-parent {
+    margin-bottom: 20px;
+}
+
+.footer-left-logo {
+    overflow: hidden;
+}
+
+.footer-right-social-links a i {
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-right-social-links a i:hover {
+    color: #2563eb;
+}
+
+.footer-divider-line{
+    border: none;
+    border-top: 1px solid #575757;
+}
+
+.footer-bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p{
+    color: #575757;
+    font-size: 16px;
+}
+
+.footer-bottom-right{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-bottom-right ul li{
+    list-style: none;
+}
+
+.footer-bottom-right ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
