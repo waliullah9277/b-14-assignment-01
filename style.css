@@ -55,3 +55,37 @@ nav{
     font-weight: 400;
     font-size: 16px;
 }
+
+/* hero section styles */
+.hero{
+    height: 650px;
+    background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.45)), url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content{
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 270px;
+}
+
+.hero-content h1{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
