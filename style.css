@@ -337,3 +337,102 @@ nav{
     font-size: 16px;
     color: #575757;
 }
+
+
+/* why attends section styles */
+
+.why-attend {
+    padding: 60px 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f8fafc;
+    margin-bottom: 20px;
+}
+
+.why-attend-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Heading */
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.section-tag {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #6366f1;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0 0 18px;
+    color: #111827;
+}
+
+.section-heading h2 span {
+    color: #6366f1;
+}
+
+.section-heading p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #6b7280;
+    margin: 0;
+}
+
+/* Benefits Grid */
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Benefit Card */
+
+.benefit-card {
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2ff;
+    border-radius: 14px;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.benefit-card h3 {
+    font-size: 20px;
+    margin: 0 0 12px;
+    color: #111827;
+}
+
+.benefit-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #6b7280;
+    margin: 0;
+}
